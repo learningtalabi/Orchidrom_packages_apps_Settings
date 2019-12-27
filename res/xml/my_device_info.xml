@@ -28,6 +28,17 @@
         android:selectable="false"
         settings:isPreferenceVisible="false"/>
 
+     <!-- addintional info -->
+     <Preference
+        android:key="googlebanner_animation"
+        android:layout="@layout/googlebanner_animation"/>
+    
+    <!-- Orchid logo -->
+    <PreferenceScreen
+        android:key="orchid_logo"
+        android:enabled="false"
+        android:layout="@layout/orchid_logo"/>
+  
     <!-- Device name -->
     <com.android.settings.widget.ValidatedEditTextPreference
         android:key="device_name"
@@ -108,29 +119,7 @@
         android:selectable="false"
         settings:enableCopying="true"/>
 
-    <!-- Device up time -->
-    <Preference
-        android:key="up_time"
-        android:order="47"
-        android:title="@string/status_up_time"
-        android:summary="@string/summary_placeholder"
-        android:selectable="false"/>
 
-    <!-- Device FCC equipment id -->
-    <Preference
-        android:key="fcc_equipment_id"
-        android:order="52"
-        android:title="@string/fcc_equipment_id"
-        android:summary="@string/summary_placeholder"/>
 
-    <!-- Build number -->
-    <Preference
-        android:key="build_number"
-        android:order="53"
-        android:title="@string/build_number"
-        android:summary="@string/summary_placeholder"
-        settings:allowDividerAbove="true"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
-
+ 
 </PreferenceScreen>

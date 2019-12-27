@@ -23,6 +23,10 @@
     settings:keywords="@string/keywords_display"
     settings:initialExpandedChildrenCount="8">
 
+   <Preference
+        android:key="display_animation"
+        android:layout="@layout/display_animation" />
+
     <com.android.settingslib.RestrictedPreference
         android:key="brightness"
         android:title="@string/brightness"
@@ -205,5 +209,12 @@
         android:key="vr_display_pref"
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
+
+    
+	<!-- Orchid logo -->
+    <PreferenceScreen
+        android:key="orchid_logo"
+        android:enabled="false"
+        android:layout="@layout/orchid_logo"/>
 
 </PreferenceScreen>

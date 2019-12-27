@@ -50,4 +50,13 @@
         android:summary="@string/device_info_not_available"
         android:persistent="false"/>
 
+     
+     <!-- Orchid logo -->
+     <PreferenceScreen
+        android:key="orchid_logo"
+        android:enabled="false"
+        android:layout="@layout/orchid_logo" />
+		
+    
+
 </PreferenceScreen>

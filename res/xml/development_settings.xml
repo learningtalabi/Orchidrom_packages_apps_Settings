@@ -18,6 +18,17 @@
                   xmlns:settings="http://schemas.android.com/apk/res-auto"
                   android:key="development_prefs_screen"
                   android:title="@string/development_settings_title">
+       
+     <!-- addintional info -->
+     <Preference
+        android:key="googlebanner_animation"
+        android:layout="@layout/googlebanner_animation"/>
+    
+    <!-- Orchid logo -->
+    <PreferenceScreen
+        android:key="orchid_logo"
+        android:enabled="false"
+        android:layout="@layout/orchid_logo"/>
 
     <PreferenceCategory
         android:key="debug_misc_category"

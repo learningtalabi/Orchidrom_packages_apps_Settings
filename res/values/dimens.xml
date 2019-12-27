@@ -21,7 +21,7 @@
     <dimen name="device_memory_usage_button_height">32dip</dimen>
     <dimen name="action_bar_switch_padding">16dip</dimen>
 
-    <dimen name="app_icon_size">40dip</dimen>
+    <dimen name="app_icon_size">36dip</dimen>
     <dimen name="min_tap_target_size">48dp</dimen>
     <dimen name="screen_margin_sides">64dip</dimen>
     <dimen name="screen_margin_top">72dip</dimen>
@@ -36,9 +36,9 @@
     <dimen name="data_usage_chart_optimalWidth">440dip</dimen>
     <dimen name="usage_number_text_size">36sp</dimen>
 
-    <dimen name="volume_seekbar_side_margin">8dip</dimen>
+    <dimen name="volume_seekbar_side_margin">7dip</dimen>
 
-    <dimen name="balance_seekbar_center_marker_height">14dp</dimen>
+    <dimen name="balance_seekbar_center_marker_height">13dp</dimen>
     <dimen name="balance_seekbar_center_marker_width">1dp</dimen>
 
     <dimen name="crypt_clock_size">100sp</dimen>
@@ -71,7 +71,7 @@
     <dimen name="notification_importance_toggle_size">48dp</dimen>
     <dimen name="notification_importance_toggle_marginTop">28dp</dimen>
     <dimen name="notification_importance_toggle_marginBottom">28dp</dimen>
-    <dimen name="notification_importance_text_marginTop">20dp</dimen>
+    <dimen name="notification_importance_text_marginTop">22dp</dimen>
     <dimen name="notification_importance_button_separation">16dp</dimen>
     <dimen name="notification_importance_button_width">178dp</dimen>
     <dimen name="notification_importance_button_horiz_padding">36dp</dimen>
@@ -90,7 +90,7 @@
     <dimen name="caption_preview_text_size">48dp</dimen>
 
     <!-- ActionBar height -->
-    <dimen name="actionbar_size">56dip</dimen>
+    <dimen name="actionbar_size">59dip</dimen>
 
     <!-- ActionBar contentInsetStart -->
     <dimen name="actionbar_contentInsetStart">16dp</dimen>
@@ -114,12 +114,16 @@
 
     <dimen name="search_bar_margin">8dp</dimen>
 
-    <dimen name="search_bar_height">48dp</dimen>
-    <dimen name="search_bar_corner_radius">@*android:dimen/config_dialogCornerRadius</dimen>
+
+
+    <dimen name="search_bar_height">51dp</dimen>
+	<!-- <dimen name="search_bar_size">@dimen/search_bar_height</dimen> -->
+    <dimen name="search_bar_corner_radius">24dp</dimen>
     <dimen name="search_bar_text_size">16dp</dimen>
-    <dimen name="search_bar_card_elevation">1dp</dimen>
-    <dimen name="search_bar_content_inset">64dp</dimen>
-    <dimen name="search_bar_avatar_end_padding">16dp</dimen>
+    <dimen name="search_bar_card_elevation">2dp</dimen>
+	<dimen name="search_bar_content_inset_start">0dp</dimen>
+    <dimen name="search_bar_content_inset">32dp</dimen>
+    <dimen name="search_bar_avatar_end_padding">15dp</dimen>
     <!-- 32dp (avatar size) + 16 dp (search_bar_avatar_end_padding) -->
     <dimen name="search_bar_avatar_width">48dp</dimen>
     <!-- (search_bar_height 48dp - avatar size 32dp) / 2  -->
@@ -173,7 +177,7 @@
     <integer name="sim_name_length">32</integer>
 
     <!-- Height of a user icon view -->
-    <dimen name="user_icon_view_height">56dp</dimen>
+    <dimen name="user_icon_view_height">58dp</dimen>
 
     <!-- CheckBoxPreference -->
     <dimen name="checkbox_widget_min_width">58dip</dimen>
@@ -193,7 +197,7 @@
 
     <!-- Color picker -->
     <dimen name="color_swatch_size">16dp</dimen>
-    <dimen name="color_swatch_stroke_width">4dp</dimen>
+    <dimen name="color_swatch_stroke_width">5dp</dimen>
 
     <!-- RedactionInterstitial -->
     <dimen name="redaction_vertical_margins">8dp</dimen>
@@ -321,6 +325,7 @@
     <!-- Battery meter view size -->
     <dimen name="battery_meter_width">200dp</dimen>
     <dimen name="battery_meter_height">200dp</dimen>
+
 
     <!-- Margin for the reset screens -->
     <dimen name="reset_network_margin_start">72dp</dimen>

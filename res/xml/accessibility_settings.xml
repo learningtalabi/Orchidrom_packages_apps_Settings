@@ -22,6 +22,10 @@
         android:persistent="true">
 
     <Preference
+            android:key="accesibility_animation"
+            android:layout="@layout/accessibility_animation" />
+
+    <Preference
             android:key="accessibility_shortcut_preference"
             android:fragment="com.android.settings.accessibility.AccessibilityShortcutPreferenceFragment"
             android:title="@string/accessibility_global_gesture_preference_title"/>
@@ -178,5 +182,10 @@
                 android:persistent="false"
                 android:icon="@drawable/ic_color_inversion"
                 settings:controller="com.android.settings.accessibility.ColorInversionPreferenceController"/>
+         
+          <!-- addintional info -->
+     <Preference
+        android:key="googlebanner_animation"
+        android:layout="@layout/googlebanner_animation"/>
     </PreferenceCategory>
 </PreferenceScreen>
