@@ -35,7 +35,9 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.recyclerview_recyclerview \
     com.google.android.material_material \
     setupcompat \
-    setupdesign
+    setupdesign \
+    android-support-design \
+    airbnb-lottie 
 
 LOCAL_JAVA_LIBRARIES := \
     telephony-common \
@@ -53,8 +55,10 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     contextualcards \
     settings-logtags \
     zxing-core-1.7 \
+    vendor.lineage.fastcharge-V1.0-java \
+    faceunlock_utils \
     org.lineageos.platform.internal \
-    vendor.lineage.fastcharge-V1.0-java
+    airbnb-lottie
 
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
     packages/apps/crDroidSettings/res
