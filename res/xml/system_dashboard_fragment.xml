@@ -21,7 +21,13 @@
     android:title="@string/header_category_system"
     settings:initialExpandedChildrenCount="8">
 
-    <!--<Preference
+
+     <Preference 
+        android:layout="@layout/system_animation" 
+        android:key="system_animation" 
+        android:order="-999" />
+
+    <!-- Preference
         android:key="gesture_settings"
         android:title="@string/gesture_preference_title"
         android:icon="@drawable/ic_settings_gestures"
