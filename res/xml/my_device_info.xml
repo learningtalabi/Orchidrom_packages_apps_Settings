@@ -28,13 +28,8 @@
         android:selectable="false"
         settings:isPreferenceVisible="false"/>
 
-     <!-- addintional info -->
-     <Preference
-        android:key="googlebanner_animation"
-        android:layout="@layout/googlebanner_animation"/>
-    
     <!-- Orchid logo -->
-    <PreferenceScreen
+    <Preference
         android:key="orchid_logo"
         android:enabled="false"
         android:layout="@layout/orchid_logo"/>

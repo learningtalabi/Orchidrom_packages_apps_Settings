@@ -187,5 +187,12 @@
      <Preference
         android:key="googlebanner_animation"
         android:layout="@layout/googlebanner_animation"/>
+		
+		<!-- Orchid logo -->
+    <Preference
+        android:key="orchid_logo"
+        android:enabled="false"
+        android:layout="@layout/orchid_logo"/>
+		
     </PreferenceCategory>
 </PreferenceScreen>
