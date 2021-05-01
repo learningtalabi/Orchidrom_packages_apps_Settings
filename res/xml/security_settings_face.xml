@@ -21,6 +21,12 @@
     android:key="security_settings_face_settings_page"
     android:title="@string/security_settings_face_preference_title">
 
+    <!-- animation -->
+     <Preference
+        android:key="googlebanner_animation"
+        android:layout="@layout/googlebanner_animation"/>
+
+		
     <com.android.settings.widget.VideoPreference
         android:key="security_settings_face_video"
         android:title="@string/summary_placeholder"

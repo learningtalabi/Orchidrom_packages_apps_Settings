@@ -89,4 +89,11 @@
         android:shouldDisableView="false"
         android:title="@string/ims_reg_title"
         android:persistent="false" />
+		
+	    <!-- Orchid logo -->
+    <PreferenceScreen
+        android:key="orchid_logo"
+        android:enabled="false"
+        android:layout="@layout/orchid_logo"/>
+		
 </PreferenceScreen>
