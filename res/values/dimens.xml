@@ -65,7 +65,7 @@
     <!-- Weight of the right pane in a multi-pane preference layout. So the split is 40:60 -->
     <integer name="preferences_right_pane_weight">6</integer>
 
-    <dimen name="notification_app_icon_size">64dp</dimen>
+    <dimen name="notification_app_icon_size">68dp</dimen>
     <dimen name="notification_app_icon_badge_size">20dp</dimen>
     <dimen name="notification_app_icon_badge_margin">4dp</dimen>
     <dimen name="notification_importance_toggle_size">48dp</dimen>
